@@ -1,0 +1,27 @@
+flowchart TB
+    Consumer[Java Consumer]
+    subgraph SDK[PagoExpress Java SDK]
+        Facade[SDK Boundary]
+        Auth[Authentication]
+        Payment[Payment Capabilities]
+        Tx[Transaction Capabilities]
+        DTO[Typed Models]
+        HTTP[REST Transport]
+        JSON[Jackson / ObjectMapper]
+        Error[Error Handling]
+        Log[Safe Logging]
+    end
+    Remote[PagoExpress API]
+    Consumer --> Facade
+    Facade --> Auth
+    Facade --> Payment
+    Facade --> Tx
+    Payment --> DTO
+    Tx --> DTO
+    Auth --> HTTP
+    Payment --> HTTP
+    Tx --> HTTP
+    HTTP --> JSON
+    HTTP --> Error
+    HTTP --> Log
+    HTTP --> Remote

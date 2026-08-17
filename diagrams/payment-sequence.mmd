@@ -1,0 +1,10 @@
+sequenceDiagram
+    participant App
+    participant SDK
+    participant API
+    App->>SDK: Create payment
+    SDK->>SDK: Validate / map
+    SDK->>API: Authenticated REST request
+    API-->>SDK: JSON response
+    SDK->>SDK: Deserialize / normalize
+    SDK-->>App: Typed payment result

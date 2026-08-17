@@ -1,0 +1,11 @@
+flowchart TD
+    A[Remote operation] --> B{Outcome}
+    B -->|Success| C[Typed result]
+    B -->|Authentication| D[Auth failure]
+    B -->|HTTP/API| E[Remote failure]
+    B -->|Network| F[Connectivity failure]
+    B -->|JSON| G[Serialization failure]
+    D --> H[Normalized SDK error]
+    E --> H
+    F --> H
+    G --> H

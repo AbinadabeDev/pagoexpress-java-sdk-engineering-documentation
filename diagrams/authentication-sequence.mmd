@@ -1,0 +1,10 @@
+sequenceDiagram
+    participant App as Java Consumer
+    participant SDK as PagoExpress SDK
+    participant API as PagoExpress API
+    App->>SDK: Invoke protected operation
+    SDK->>API: Authenticate
+    API-->>SDK: Authentication context
+    SDK->>API: Protected request
+    API-->>SDK: Response
+    SDK-->>App: Typed Java result

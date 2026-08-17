@@ -1,0 +1,8 @@
+stateDiagram-v2
+    [*] --> Requested
+    Requested --> Pending
+    Requested --> Rejected
+    Pending --> Processed
+    Pending --> Cancelled
+    Processed --> ReversalRequested
+    ReversalRequested --> Reversed
