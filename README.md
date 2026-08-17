@@ -10,7 +10,7 @@
 ![Source](https://img.shields.io/badge/Source-Proprietary-lightgrey)
 ![Documentation](https://img.shields.io/badge/Public-Engineering%20Documentation-informational)
 
-[Versão em Português](README.pt-BR.md)
+[Versão em Português](./README-PT-BR.md)
 
 ---
 
@@ -425,7 +425,7 @@ Those projects may integrate with the same PagoExpress platform, but they have t
 ```text
 .
 ├── README.md
-├── README.pt-BR.md
+├── ./README-PT-BR.md
 ├── NOTICE.md
 ├── PUBLIC_DISCLOSURE.md
 ├── SECURITY.md

@@ -1,4 +1,6 @@
 # PagoExpress Java SDK
+\n[🇺🇸 English version](./README.md)
+
 
 > **Documentação pública de engenharia de um projeto de software comercial e funcional.**  
 > O código-fonte proprietário não está incluído porque pertence ao cliente.
