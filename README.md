@@ -10,7 +10,7 @@
 ![Source](https://img.shields.io/badge/Source-Proprietary-lightgrey)
 ![Documentation](https://img.shields.io/badge/Public-Engineering%20Documentation-informational)
 
-[Versão em Português](./README-PT-BR.md)
+[🇧🇷 Versão em Português](./README-PT-BR.md)
 
 ---
 
@@ -425,7 +425,7 @@ Those projects may integrate with the same PagoExpress platform, but they have t
 ```text
 .
 ├── README.md
-├── ./README-PT-BR.md
+├── README-PT-BR.md
 ├── NOTICE.md
 ├── PUBLIC_DISCLOSURE.md
 ├── SECURITY.md
@@ -515,11 +515,3 @@ See [NOTICE.md](NOTICE.md).
 Software Developer — Java, Spring, Angular, Python, APIs, integrations and cloud.
 
 This repository is part of a professional engineering portfolio documenting real software deliveries whose proprietary source code cannot be publicly disclosed.
-
----
-
-## Documentation references
-
-The public-documentation structure and disclosure discipline used in this repository are based on established guidance for GitHub repositories, architecture documentation, ADRs and protection of confidential technical information.
-
-See [REFERENCES.md](REFERENCES.md).
